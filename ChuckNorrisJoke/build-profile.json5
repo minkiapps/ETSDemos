@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "00000018534A7BFCD34DA17741E5AABEA99EA44FD9AF42E53777F3986B95F36B4046FF9901D8CC80",
+          "certpath": "signing/minkiapps.cer",
+          "keyAlias": "minkiapps",
+          "keyPassword": "000000182F392690A0BA725A6C388AF997D0C84C66164E7880AD0B96EC6FA3C87AD7479777059254",
+          "profile": "signing/allDebug.p7b",
+          "storeFile": "signing/minkiapps.p12",
+          "signAlg": "SHA256withECDSA"
+        }
+      }
+    ],
+    "compileSdkVersion": 8,
+    "compatibleSdkVersion": 8,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

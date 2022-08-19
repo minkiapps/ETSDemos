@@ -1,0 +1,17 @@
+<div class="background" onclick="routerEvent">
+    <stack style="width: 100%; height: 100%;">
+        <div class="container" style="width: 100%;">
+            <text class="joke-title" >{{ $t('strings.joke_title') }}</text>
+            <text class="joke-text"
+                  style="color: {{joke_color}};">
+                {{joke_text}}
+            </text>
+        </div>
+        <image src="/common/refresh.png"
+               onclick="reloadJoke"
+               style="width: 32px; height: 32px;
+                       padding: 4px;
+                       position: absolute;
+                       right: -10px; bottom: -10px;"/>
+    </stack>
+</div>
