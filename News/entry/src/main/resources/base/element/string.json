@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "News"
+    },
+    {
+      "name": "bing_news",
+      "value": "Bing"
+    },
+    {
+      "name": "corona_news",
+      "value": "Corona"
+    },
+    {
+      "name": "hacker_news",
+      "value": "Hacker"
+    },
+    {
+      "name": "financial_times",
+      "value": "Financial"
+    }
+  ]
+}
